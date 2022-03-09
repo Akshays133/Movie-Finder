@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Nav from './Nav'
-import SearchBox from './SearchBox'
-import MovieList from './MovieList'
-import Pagination from './Pagination'
+import Nav from './components/Nav'
+import SearchBox from './components/SearchBox'
+import MovieList from './components/MovieList'
+import Pagination from './utils/Pagination'
 
 const App = () => {
   const [movies, setMovies] = useState([]);
